@@ -20,6 +20,7 @@ int main()
 {
     remove(ARCH_DATOS);
     remove(ARCH_TEMP);
+    remove("Basurita.txt");
     fflush(stdin);
     disp.generaTrazado();
     switchear();
